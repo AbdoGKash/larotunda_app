@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:larotunda/core/routing/app_router.dart';
+import 'package:larotunda/core/routing/routers_name.dart';
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class LarotundaApp extends StatelessWidget {
+  const LarotundaApp({super.key});
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      //  home: ,
+      initialRoute: RoutersName.login,
+      onGenerateRoute: AppRouter.generateRoute,
     );
   }
 }

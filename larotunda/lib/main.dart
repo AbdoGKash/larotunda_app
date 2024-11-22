@@ -1,17 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:larotunda/larotunda_app.dart';
 
 void main() {
-  runApp();
+  runApp(const LarotundaApp());
 }
-
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//   @override
-//   Widget build(BuildContext context) {
-//     return const MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//     //  home: ,
-//     );
-//   }
-// }
-
