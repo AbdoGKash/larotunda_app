@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:larotunda/core/routing/routers_name.dart';
 import 'package:larotunda/features/login/view/login_screen.dart';
+import 'package:larotunda/features/registering/view/sign_up_screen.dart';
 
 class AppRouter {
   static Route generateRoute(RouteSettings settings) {
@@ -13,10 +14,10 @@ class AppRouter {
         return MaterialPageRoute(
           builder: (_) => const LoginScreen(),
         );
-      // case RoutersName.signUp:
-      //   return MaterialPageRoute(
-      //     builder: (_) => const SignUpScreen(),
-      //   );
+      case RoutersName.signUp:
+        return MaterialPageRoute(
+          builder: (_) => const SignUpScreen(),
+        );
       // case RoutersName.homeSreen:
       //   return MaterialPageRoute(
       //     builder: (_) => HomeScreen(),
