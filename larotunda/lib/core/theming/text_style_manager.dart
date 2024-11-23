@@ -45,9 +45,9 @@ class TextStyles {
     fontWeight: FontWeight.w300,
     color: ColorsManger.grey,
   );
-  static TextStyle font14Gray200 = TextStyle(
+  static TextStyle font14GrayBold = TextStyle(
     fontSize: 14.sp,
-    fontWeight: FontWeight.w200,
+    fontWeight: FontWeight.bold,
     color: ColorsManger.grey,
   );
   static TextStyle font14WhiteSemiBold = TextStyle(
